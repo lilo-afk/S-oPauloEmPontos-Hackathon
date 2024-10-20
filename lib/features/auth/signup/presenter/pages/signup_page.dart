@@ -40,7 +40,7 @@ class _SignUpPageState extends State<SignUpPage> {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(content: Text('Parabéns, conta criada com sucesso!')),
         );
-        // Navegação aqui
+        Navigator.pushReplacementNamed(context, '/home');
       }
     }
   }

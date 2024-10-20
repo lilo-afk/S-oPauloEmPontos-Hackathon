@@ -34,7 +34,7 @@ class _SignInPageState extends State<SignInPage> {
           const SnackBar(
               content: Text('Parabéns, login realizado com sucesso!')),
         );
-        // Navegação para outra página após login
+        Navigator.pushReplacementNamed(context, '/home');
       }
     }
   }

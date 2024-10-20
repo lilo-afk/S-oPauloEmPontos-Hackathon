@@ -10,7 +10,7 @@ class AppTheme {
     brightness: Brightness.light,
     appBarTheme: LAppBarTheme.lightAppBarTheme,
     scaffoldBackgroundColor: AppColors.white,
-    colorScheme: ColorScheme.fromSeed(seedColor: AppColors.yellow),
+    colorScheme: ColorScheme.fromSeed(seedColor: AppColors.lightBlue),
     textTheme: AppTextTheme.whiteTheme,
   );
 
